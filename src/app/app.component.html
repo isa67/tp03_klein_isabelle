@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+
+<div *ngFor="let o of tab; let i = index">
+  {{ o }}
+  <div *ngFor="let o of tab; let j = index">{{ j }} {{ o }}</div>
+</div>
+
+<p>Start editing to see some magic happen :)</p>
